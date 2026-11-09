@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#1e3700", "on-surface": "#e5e2e1", "on-tertiary-container": "#820003", "surface-container": "#201f1f", "tertiary-fixed-dim": "#ffb4a9", "primary-fixed-dim": "#ffb783", "surface-container-lowest": "#0e0e0e", "background": "#131313", "on-primary-container": "#633000", "on-secondary-fixed": "#0f2000", "surface-container-low": "#1c1b1b", "tertiary-container": "#ff8676", "on-primary-fixed": "#301400", "tertiary-fixed": "#ffdad5", "surface-bright": "#393939", "on-secondary-container": "#bdf57c", "outline-variant": "#564336", "tertiary": "#ffb4a9", "secondary-fixed": "#bcf37b", "on-error-container": "#ffdad6", "inverse-on-surface": "#313030", "surface-container-highest": "#353534", "primary-fixed": "#ffdcc5", "primary-container": "#ff8a1f", "on-tertiary": "#690002", "secondary-container": "#447200", "on-primary-fixed-variant": "#713700", "error-container": "#93000a", "secondary-fixed-dim": "#a1d662", "surface-dim": "#131313", "secondary": "#a1d662", "on-primary": "#4f2500", "error": "#ffb4ab", "inverse-primary": "#944a00", "surface-container-high": "#2a2a2a", "primary": "#ffb783", "on-error": "#690005", "surface": "#131313", "on-tertiary-fixed": "#410001", "on-background": "#e5e2e1", "surface-variant": "#353534", "inverse-surface": "#e5e2e1", "surface-tint": "#ffb783", "on-secondary-fixed-variant": "#2e4f00", "outline": "#a58c7c", "on-surface-variant": "#ddc1b0", "on-tertiary-fixed-variant": "#930004" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xl": "2rem", "margin": "1rem", "margin-lg": "2.5rem", "gutter-lg": "1.5rem", "space-xs": "0.25rem", "gutter": "1rem", "space-md": "1rem", "space-sm": "0.5rem", "margin-md": "1.5rem" }, "fontFamily": { "title-sm": [ "Outfit" ], "headline-lg": [ "Outfit" ], "label-md": [ "Outfit" ], "headline-md": [ "Outfit" ], "body-sm": [ "Inter" ], "body-md": [ "Inter" ], "label-lg": [ "Outfit" ], "headline-xl": [ "Outfit" ], "label-sm": [ "Outfit" ], "headline-xl-mobile": [ "Outfit" ], "body-lg": [ "Inter" ] }, "fontSize": { "title-sm": [ "18px", { "lineHeight": "24px", "fontWeight": "600" } ], "headline-lg": [ "28px", { "lineHeight": "34px", "fontWeight": "700" } ], "label-md": [ "12px", { "lineHeight": "16px", "fontWeight": "700" } ], "headline-md": [ "22px", { "lineHeight": "28px", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "16px", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "18px", "fontWeight": "700" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "fontWeight": "800" } ], "label-sm": [ "10px", { "lineHeight": "12px", "fontWeight": "800" } ], "headline-xl-mobile": [ "30px", { "lineHeight": "36px", "fontWeight": "800" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen relative"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/ALJJyrChRh_8H56GECzWjickt5dl-XzXAx_b9avyZ8ityZpU5GOo7mRpt9UvBxd6n1Vy2mNqevcO7y-f2hawCztgNBWX9vZkXB-aTcET6w1bCAnJ5jisKoZo90LVu5rj6Oc96zqRc9UXIuxVP1_tm962izJ50AkCge54IJ52qrR0ihp_Md9-uYzsYowlK196xlmXC4HF158e_csdw2hENCuV7oVGaCbFfVVqwFni4I4z1-dp3blt4KItikeEgbcb"/><a class="flex flex-col" href="#hero"><span class="font-headline-md text-headline-md text-primary tracking-tight">YOI EXPRESS</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant">SUSHI ROLL GUASAVE</span></a><div class="hidden xl:flex items-center gap-space-xs ml-space-sm px-space-sm py-space-xs rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span>Abierto hoy hasta 11:00 PM</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-label-lg"><a aria-current="page" class="transition-colors text-primary font-label-lg hover:text-primary-fixed" data-path="inicio" href="#hero">Inicio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="menu" href="#menu-section">Menú</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="ofertas" href="#ofertas">Ofertas</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="charolas" href="#charolas">Charolas</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="buffet" href="#buffet">Buffet</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="contacto" href="#contacto">Contacto</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center gap-space-sm px-space-md py-space-sm rounded-full bg-[#25D366] text-surface-container-lowest font-label-md text-label-md shadow-[0_8px_24px_-2px_rgba(37,211,102,0.35)] hover:opacity-95 transition-all" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Quiero%20hacer%20un%20pedido%20por%20favor" rel="noopener noreferrer" target="_blank"><span class="hidden sm:inline">Pedir por WhatsApp</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow -->
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-6 sm:py-10">
+<div class="absolute top-10 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-40 right-10 w-80 h-80 bg-secondary/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. HERO SECTION -->
+<section class="relative w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center" id="hero">
+<div class="lg:col-span-7 flex flex-col gap-5 sm:gap-6">
+<!-- Status Pill Badge -->
+<div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-surface-container-high text-secondary shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md tracking-wide">Abierto todos los días · 1:00 pm a 11:00 pm</span>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<img alt="Yoi Express Sushi Roll" class="w-12 h-12 rounded-full object-cover shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClcvUUwlW0LAkVvNz8OD2-BYpfrEPTWo77_iYdhAXs9odAIzCnNI8fqT3F3TjHp-5MubqYe34qzSwjXG_c0XxFHw3u2c11rtk0qgD39AqG4kRJwIciDBXcor2nDzqIo2wMs02XRUCT47G-lrg-gBKY1U0vUFg7JL-lR4K3E6BMLt_i_tZrXHCIxfjfFb-oFK81xbGyGsxjYUX6zbWBO7gOxABigpReprPHYjRZL8XMVqtnlSR-MHx1wA"/>
+<span class="font-label-lg text-label-lg text-primary uppercase tracking-widest">Sabor Auténtico Sinaloense</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight leading-none">
+            Sushi, alitas y <br class="hidden sm:inline"/>
+<span class="text-primary-container">mucho más</span>
+</h1>
+<p class="font-headline-md text-headline-md text-primary font-bold">
+            Antójate en Guasave
+          </p>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Rollos bien reportados al mero estilo Sinaloa: horneados, gratinados, empanizados y charolas monstruosas que sí llenan. Sabor intenso con salsas de la casa y mariscos del día.
+        </p>
+<!-- CTA Action Buttons -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-3 px-6 py-3.5 rounded-full bg-[#25D366] text-surface-container-lowest font-label-lg text-label-lg shadow-[0_10px_26px_-2px_rgba(37,211,102,0.4)] hover:brightness-105 hover:scale-[1.02] transition-all" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Me%20gustar%C3%ADa%20ordenar%20comida%20a%20domicilio" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span>Pedir por WhatsApp</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-surface-container-high text-primary font-label-lg text-label-lg hover:bg-surface-bright transition-all shadow-sm" href="#menu-section">
+<span class="material-symbols-outlined text-[20px]">restaurant_menu</span>
+<span>Ver menú completo</span>
+</a>
+</div>
+<!-- Trust Badges Micro-Strip -->
+</div>
+<!-- Hero Visual Card -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-3xl overflow-hidden bg-surface-container shadow-2xl p-3">
+<div class="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden">
+<img alt="Boneless Roll Monumental Yoi Express" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs1fXqTmSi_lfIlpMvNDSVnErfCD8sYBG3YM-aRaIGMi9IGDn-_yJq4PMVtKUdYa57Gju4bcwPxdpWqTVSkcbv7wulIvYJpnRZFzD04HG4eUdM8ydgylq9X4smU-v930xdoUA7EHd6oJsTUGs-xRD0HeVBkIxQpCG87k2_s_SoDHGA1J_wkEwjUXq9Aa3aPWXhtyHlcjO_5KJoW0sq5h25vThkPSbCLX8RDxI_p23xmQiBsQ4IVpSZsQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-black/30"></div>
+<!-- Floating Top Badges -->
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-container text-surface-container-lowest font-label-md text-label-md shadow-lg">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+                ¡Bien Reportado!
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm">
+                100% Estilo Guasave
+              </span>
+</div>
+<!-- Bottom Highlights -->
+<div class="absolute bottom-4 left-4 right-4 flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Especialidad de la casa</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-extrabold leading-tight">Boneless Roll</h2>
+</div>
+<div class="bg-surface-container-high/90 backdrop-blur-md px-3.5 py-1.5 rounded-xl shadow-md text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Desde</span>
+<p class="font-headline-md text-headline-md text-primary font-black leading-none">$135 <span class="text-xs font-normal">MXN</span></p>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Micro-card Accent -->
+<div class="hidden sm:flex items-center gap-3 absolute -bottom-5 -left-6 bg-surface-container-highest px-4 py-3 rounded-2xl shadow-xl">
+<div class="w-10 h-10 rounded-full bg-[#25D366]/20 flex items-center justify-center text-[#25D366]">
+<span class="material-symbols-outlined text-[24px]">electric_bolt</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Horneados al instante</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calientitos hasta tu mesa</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. MÓDULO DE OFERTA DEL MOMENTO -->
+<section class="mt-14 sm:mt-20 w-full scroll-mt-24" id="ofertas">
+<div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-lowest p-6 sm:p-8 lg:p-10 shadow-2xl">
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-error-container/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+<div class="lg:col-span-7 flex flex-col gap-4">
+<div class="flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-error-container text-on-error font-label-md text-label-md uppercase tracking-wider shadow-sm">
+<span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+                Oferta de la semana
+              </span>
+<span class="inline-flex items-center gap-1 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+                Válido de Lunes a Jueves · Hasta agotar existencias
+              </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Dúo Antojo Guasavense: <span class="text-primary">2 Rollos Especiales + Boneless + Té Helado</span>
+</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              Llévate 1 Rollo Mitad Gratinado + 1 Rollo Empanizado Crunchy + Orden de Boneless BBQ Chipotle por solo <span class="text-on-surface font-bold">$289 MXN</span> <span class="line-through text-outline">(Precio normal $370)</span>.
+            </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-[0_10px_24px_-4px_rgba(255,138,31,0.3)] hover:scale-[1.02] transition-transform" href="https://wa.me/526871211658?text=Hola!%20Quiero%20aprovechar%20la%20Oferta%20Semanal:%20D%C3%BAo%20Antojo%20Guasavense%20por%20$289%20MXN" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>Pedir esta oferta</span>
+</a>
+<div class="flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-lowest/60">
+<span class="font-headline-md text-headline-md text-primary font-extrabold">$289</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">MXN TOTAL</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="w-full h-64 sm:h-72 rounded-2xl overflow-hidden shadow-xl relative bg-surface-container-lowest">
+<img alt="Dúo Antojo Sushi Rollo Mitad y Mitad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDREB4A7K3QIdkBJCWmHCDBjWV7qaZukBiFhxTL6_WxIJAPZPlgnnyt4fT1NxT_DBdSlGA62Yh9b-aTAM_A7T2k75YeYs3-q1OwGdh4KoQW5fV6JRkMVyC-3BSjT8IY5-QPRk8bEaoYw5Z_69Aqqc3y--SYUrb9Ukpu0kQFDY8esXEoihJyFoH3jY8p7h2ntjE_D9gyO4ZRXCZScD10id6P8jaahimB4gXW3ob8CfDRAVgp8QeqCxzC0g"/>
+<div class="absolute top-3 right-3 bg-error-container text-on-error font-headline-md text-headline-md px-3 py-1 rounded-xl shadow-lg">
+                -22% OFF
+              </div>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface">Mitad Gratinado + Mitad Crunch</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. CATEGORÍAS EN CHIPS (SCROLL HORIZONTAL) -->
+<section class="mt-14 sm:mt-16 w-full scroll-mt-24" id="menu-section">
+<div class="flex items-center justify-between mb-4">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Explora la carta</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Categorías de Antojos</h2>
+</div>
+<span class="hidden sm:inline font-body-sm text-body-sm text-on-surface-variant">Desliza para explorar →</span>
+</div>
+<div class="flex items-center gap-3 overflow-x-auto pb-3 pt-1 scrollbar-none" id="categories-container">
+<button class="category-chip active whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-primary-container text-on-primary-container shadow-md transition-all border border-primary-container" data-filter="all" type="button">
+          Todos los antojos
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="gratinado" type="button">
+          🍣 Sushi Gratinado
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="clasicos" type="button">
+          🥢 Rollos Clásicos
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="boneless" type="button">
+          🍗 Alitas &amp; Boneless
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="yakimeshi" type="button">
+          🍚 Yakimeshi &amp; Arroces
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="charolas" type="button">
+          🍱 Charolas &amp; Especiales
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="sushizzas" type="button">
+          🍕 Sushizzas
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="pasteles" type="button">
+          🎉 Pasteles de Sushi
+        </button>
+<button class="category-chip whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-bright transition-all border border-transparent" data-filter="ofertas" type="button">
+          🔥 Ofertas
+        </button>
+</div>
+</section>
+<!-- 4. "LOS MÁS PEDIDOS" (GRID GASTRONÓMICO) -->
+<section class="mt-8 w-full">
+<div class="flex items-end justify-between mb-8">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Selección estrella</span>
+<h2 class="font-headline-xl text-headline-lg sm:text-headline-xl text-on-surface">Los Más Pedidos en Guasave</h2>
+</div>
+<a class="hidden sm:inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed transition-colors" href="#menu-section">
+<span>Ver carta completa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="dishes-grid">
+<!-- Platillo 1 -->
+<article class="dish-card flex flex-col bg-surface-container-low rounded-[18px] overflow-hidden shadow-lg hover:shadow-2xl hover:bg-surface-container transition-all group" data-category="gratinado,clasicos,all">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-lowest">
+<img alt="Rollo Mitad Gratinado" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDREB4A7K3QIdkBJCWmHCDBjWV7qaZukBiFhxTL6_WxIJAPZPlgnnyt4fT1NxT_DBdSlGA62Yh9b-aTAM_A7T2k75YeYs3-q1OwGdh4KoQW5fV6JRkMVyC-3BSjT8IY5-QPRk8bEaoYw5Z_69Aqqc3y--SYUrb9Ukpu0kQFDY8esXEoihJyFoH3jY8p7h2ntjE_D9gyO4ZRXCZScD10id6P8jaahimB4gXW3ob8CfDRAVgp8QeqCxzC0g"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary-container text-surface-container-lowest font-label-sm text-label-sm shadow-md">
+              Más pedido
+            </span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface">Rollo Mitad Gratinado</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Por dentro pollo crujiente, queso crema y aguacate. Mitad bañado en salsa de la casa gratinada al soplete y mitad crunch.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-on-surface-variant">Precio</span>
+<span class="font-headline-md text-headline-md text-primary font-black">$145 <span class="text-xs font-normal">MXN</span></span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#25D366] text-surface-container-lowest font-label-md text-label-md hover:scale-105 transition-all shadow-md" href="https://wa.me/526871211658?text=Hola!%20Quiero%20pedir%201%20Rollo%20Mitad%20Gratinado%20($145%20MXN)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Pedir</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Platillo 2 -->
+<article class="dish-card flex flex-col bg-surface-container-low rounded-[18px] overflow-hidden shadow-lg hover:shadow-2xl hover:bg-surface-container transition-all group" data-category="boneless,clasicos,all">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-lowest">
+<img alt="Boneless Roll Especial" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs1fXqTmSi_lfIlpMvNDSVnErfCD8sYBG3YM-aRaIGMi9IGDn-_yJq4PMVtKUdYa57Gju4bcwPxdpWqTVSkcbv7wulIvYJpnRZFzD04HG4eUdM8ydgylq9X4smU-v930xdoUA7EHd6oJsTUGs-xRD0HeVBkIxQpCG87k2_s_SoDHGA1J_wkEwjUXq9Aa3aPWXhtyHlcjO_5KJoW0sq5h25vThkPSbCLX8RDxI_p23xmQiBsQ4IVpSZsQ"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-error-container text-on-error font-label-sm text-label-sm shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">local_fire_department</span>
+              Bomba de Sabor
+            </span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface">Boneless Roll Especial</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Rollo empanizado bañado en salsa teriyaki dulce, coronado con una montaña de tiernos boneless glaseados y ajonjolí tostado.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-on-surface-variant">Precio</span>
+<span class="font-headline-md text-headline-md text-primary font-black">$165 <span class="text-xs font-normal">MXN</span></span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#25D366] text-surface-container-lowest font-label-md text-label-md hover:scale-105 transition-all shadow-md" href="https://wa.me/526871211658?text=Hola!%20Quiero%20pedir%201%20Boneless%20Roll%20Especial%20($165%20MXN)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Pedir</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Platillo 3 -->
+<article class="dish-card flex flex-col bg-surface-container-low rounded-[18px] overflow-hidden shadow-lg hover:shadow-2xl hover:bg-surface-container transition-all group" data-category="sushizzas,all">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-lowest">
+<img alt="Sushizza Sinaloense" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCY1Yh7641U0uFvg_lgEHCHvOo_gHneUYqQoJNNtGYJW4IRFxGbON2AH7kVjRJyOBxtShr0F5ImnGP8Vf1TR0iD6vMPNVLnv6lWN6A4YKhojL0kLTCwkzOre0RTItunScq4Fzno_cn2OGcAaEWdo0gTvdqbvK8N47wW3tGWBL1whHuDpSz3_rKxhIRTlnppTB-5qLOxgIJPYRbY-pZE1Zg_0UFE9_Iz5pGPTucWestBk-h7eD66gjFVig"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm shadow-md">
+              Favorito de la Casa
+            </span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface">Sushizza Sinaloense</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Base crujiente de arroz empanizado tipo corte pizza con queso derretido, mezcla de mariscos y pollo, aderezos de chipotle y teriyaki.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-on-surface-variant">Precio</span>
+<span class="font-headline-md text-headline-md text-primary font-black">$155 <span class="text-xs font-normal">MXN</span></span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#25D366] text-surface-container-lowest font-label-md text-label-md hover:scale-105 transition-all shadow-md" href="https://wa.me/526871211658?text=Hola!%20Quiero%20pedir%201%20Sushizza%20Sinaloense%20($155%20MXN)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Pedir</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Platillo 4 -->
+<article class="dish-card flex flex-col bg-surface-container-low rounded-[18px] overflow-hidden shadow-lg hover:shadow-2xl hover:bg-surface-container transition-all group" data-category="gratinado,charolas,all">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-lowest">
+<img alt="Tres Mandos Gigante" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwgond5Q3fim3QpzP8KbVaMRJJgM_wJ-cKJJajhkTwQ-hQZjLrACd35m54DQgmgTQSGk0BugI7iUH3QVjiOb1IC4UGkj-0tE1qEQvi5WVd4B2oeLyLH1Iy25xeVt4SoS8S_89DZ1FAWBRW87cW59Ohce-rrZ3aa-xT-Kq5MtFP_qGliDaVFWCTzTsDZ53lvNMXx7aSQqyHWwK-akKuH0SnM_p3S-XdKWYFDekFGJE2XJETgnIuCMnZvQ"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-md">
+              Especialidad
+            </span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface">Tres Mandos Gigante</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Piezas gigantes rellenas con doble porción de camarón y res, gratinado intenso con gouda y queso crema sazonado con furikake.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-on-surface-variant">Precio</span>
+<span class="font-headline-md text-headline-md text-primary font-black">$175 <span class="text-xs font-normal">MXN</span></span>
+</div>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#25D366] text-surface-container-lowest font-label-md text-label-md hover:scale-105 transition-all shadow-md" href="https://wa.me/526871211658?text=Hola!%20Quiero%20pedir%201%20Tres%20Mandos%20Gigante%20($175%20MXN)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Pedir</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- 5. SECCIÓN ESPECIAL TEMÁTICA / BUFFET -->
+<section class="mt-14 sm:mt-20 w-full scroll-mt-24" id="buffet">
+<div class="relative overflow-hidden rounded-3xl bg-surface-container-high p-8 sm:p-12 shadow-2xl">
+<div class="absolute -top-16 -right-16 w-72 h-72 bg-secondary/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-3xl flex flex-col gap-5">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+              TEMPORADA 2026
+            </span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Comedor Guasave</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg sm:text-headline-xl text-on-surface">
+            🍣 Buffet Express: <span class="text-secondary">Todo el Sushi que Puedas Comer</span>
+</h2>
+<p class="font-headline-md text-headline-md text-on-surface font-semibold">
+            Ven con hambre a nuestra sucursal en Guasave
+          </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Más de 15 variedades de rollos horneados, naturales, empanizados, además de yakimeshi y alitas ilimitadas. Incluye té de cortesía para acompañar el banquete.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">
+<div class="bg-surface-container-lowest/80 p-4 rounded-2xl flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]">payments</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tarifa por persona</span>
+<p class="font-headline-md text-headline-md text-on-surface">$199 <span class="font-body-sm text-body-sm text-on-surface-variant">MXN Adulto</span></p>
+<p class="font-body-sm text-body-sm text-secondary">$119 MXN Niños</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest/80 p-4 rounded-2xl flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[28px]">schedule</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Días y Horarios Buffet</span>
+<p class="font-label-lg text-label-lg text-on-surface">Miércoles a Domingo</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">2:00 PM a 8:00 PM</p>
+</div>
+</div>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-[#25D366] text-surface-container-lowest font-label-lg text-label-lg shadow-[0_10px_24px_-2px_rgba(37,211,102,0.4)] hover:scale-105 transition-all" href="https://wa.me/526871211658?text=Hola!%20Quiero%20reservar%20mesa%20para%20el%20Buffet%20Express%20de%20Sushi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">calendar_month</span>
+<span>Reservar mesa para Buffet</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CHAROLAS MONSTRUOSAS Y PASTELES PARA COMPARTIR -->
+<section class="mt-14 sm:mt-20 w-full scroll-mt-24" id="charolas">
+<div class="flex flex-col gap-2 mb-8">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Tamaño Monumental</span>
+<h2 class="font-headline-xl text-headline-lg sm:text-headline-xl text-on-surface">Charolas y Pasteles de Sushi</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Diseñados para reuniones, borracheras banquetes y festejos familiares. Nada de porciones pichicatas: puro sushi sinaloense pesado.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Tarjeta A: Charola Monumental -->
+<div class="flex flex-col bg-surface-container rounded-3xl overflow-hidden shadow-2xl p-6 sm:p-8">
+<div class="flex items-center justify-between mb-4">
+<span class="px-3.5 py-1 rounded-full bg-primary-container text-surface-container-lowest font-label-md text-label-md">
+              Para 6 a 8 personas
+            </span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container/20 px-3 py-1 rounded-full">
+              Pesa 3.406 Kg en báscula
+            </span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-2">Charola Monumental Tres Mandos XXXL</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            Más de 3.4 Kg de comida pura: 4 rollos especiales extra largos, cascada de kanikama especiado, doble cama de aguacate y salsas de la casa.
+          </p>
+<!-- Double Image Showcase -->
+<div class="grid grid-cols-2 gap-3 mb-6">
+<div class="h-44 sm:h-52 rounded-2xl overflow-hidden bg-surface-container-lowest">
+<img alt="Charola Tres Mandos XXXL de sushi" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBULOpeVqVzdZPj3cSnDMIxg3ef8dvL_LjyU_XH9sqSarj9zQjMZBXyAiJteNNzK2wU2uQ9JePSne7bkQ8tLPK4jGu0K3G50VKr3OCQ_igX3Un58apmII9gK6SqkJfqeS16MRJoVuW9ZiMZ7nWWJdEgxgHuwPc5NToH_4RUHtdF8waynPseHvBWJx3F2zzBkk5oXA9QigNmf478Ewu_jEPC9B80nLMeA9369ufeucl9pVX2tl_Oh4qrBg"/>
+</div>
+<div class="h-44 sm:h-52 rounded-2xl overflow-hidden bg-surface-container-lowest relative">
+<img alt="Charola 3.406 Kg sobre báscula comercial" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNcc43MIDkS-SBbwWqtlcMxEysUV1NWQYmABhFdL-OsqP87gNdYoB1dB7hik-lQXB2BkEK0kInnuMSz1izQbw-JlKq02J22o_RdtZNWRNDGjmHSwOiJgAb_Gr2ZkNQK01ch36bwINgyXEm4T9Cwu8Bpck090BjrUf1D6l0yOrkZIUjvy5ryF7zD46gHaCf9nTRlfa_6YXOq5t87W1qLyLA9NGJHX2x9i5D56fPBgA7Ao29P5BIa8gFhQ"/>
+<div class="absolute bottom-2 right-2 bg-surface-container-lowest/80 px-2.5 py-1 rounded-md text-xs font-bold text-primary">
+                3.406 Kg Reales
+              </div>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-surface-container-highest">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Precio especial</span>
+<p class="font-headline-lg text-headline-lg text-primary font-black">$620 <span class="text-sm font-normal">MXN</span></p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-md hover:scale-105 transition-all" href="https://wa.me/526871211658?text=Hola!%20Quiero%20pedir%20la%20Charola%20Monumental%20Tres%20Mandos%20XXXL%20($620%20MXN)" rel="noopener noreferrer" target="_blank">
+
+<span>Pedir Charola Monumental</span>
+</a>
+</div>
+</div>
+<!-- Tarjeta B: Pastel de Sushi -->
+<div class="flex flex-col bg-surface-container rounded-3xl overflow-hidden shadow-2xl p-6 sm:p-8">
+<div class="flex items-center justify-between mb-4">
+<span class="px-3.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+              Ideal para Festejar · 8 a 10 personas
+            </span>
+<span class="font-label-sm text-label-sm text-primary">
+              ¡Cumpleaños con sabor!
+            </span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-2">Pastel de Sushi Cumpleañero &amp; Eventos</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            Divertida y deliciosa torre de arroz sazonado cubierta de surimi finamente picado, corona de aguacate fresco y perlas empanizadas con salsa de queso.
+          </p>
+<!-- Single Centered Big Image -->
+<div class="w-full h-64 sm:h-72 rounded-2xl overflow-hidden bg-surface-container-lowest mb-6">
+<img alt="Pastel de Sushi con corona de aguacate y rollitos" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB1egE3RI-K09Mm0-jNU9B8MMHNMJeufv2SKnxGm-IHam8RYForGyU2b6wrsjs9EY0OS3YiHUf95aoPSkcFFxgCbxKNT8Zy2THu8FAdQUF5LhUwGiZBLME828O59ErK_Xp9GUIy70NqOyDdimghJbVp7eY94SUThBuiDZXYMvXi7HR9vDlyxomBXEEuV0bkjVCaDT5RkogC5O-V5W1jKJqnf8byNI4xDVpqjDAS02KA1YghHNgKu9nUA"/>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-surface-container-highest">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Precio pastel</span>
+<p class="font-headline-lg text-headline-lg text-primary font-black">$540 <span class="text-sm font-normal">MXN</span></p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#25D366] text-surface-container-lowest font-label-lg text-label-lg shadow-md hover:scale-105 transition-all" href="https://wa.me/526871211658?text=Hola!%20Quiero%20ordenar%20el%20Pastel%20de%20Sushi%20Cumplea%C3%B1ero%20($540%20MXN)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">cake</span>
+<span>Pedir Pastel de Sushi</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. "CÓMO PEDIR EN 3 PASOS" -->
+<section class="mt-14 sm:mt-20 w-full">
+<div class="text-center max-w-xl mx-auto mb-10">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Sencillo, rápido y caliente</span>
+<h2 class="font-headline-xl text-headline-lg sm:text-headline-xl text-on-surface">¿Cómo ordenar tu Yoi Express?</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<a class="flex flex-col items-center text-center p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container shadow-md transition-colors group cursor-pointer" href="#menu-section">
+<div class="w-14 h-14 rounded-2xl bg-primary-container/20 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]">menu_book</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary mb-1">PASO 01</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">1. Elige tu antojo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Revisa nuestro menú con fotos reales de nuestros rollos, charolas o buffet sin letras chiquitas.
+          </p>
+</a>
+<a class="flex flex-col items-center text-center p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container shadow-md transition-colors group cursor-pointer" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Quiero%20hacer%20un%20pedido%20por%20favor" rel="noopener noreferrer" target="_blank">
+<div class="w-14 h-14 rounded-2xl bg-[#25D366]/20 text-[#25D366] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]">chat</span>
+</div>
+<span class="font-label-sm text-label-sm text-[#25D366] mb-1">PASO 02</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">2. Escríbenos por WhatsApp</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Da clic en cualquier botón "Pedir", tu mensaje ya va listo con el nombre del platillo para atenderte de volada.
+          </p>
+</a>
+<a class="flex flex-col items-center text-center p-6 rounded-2xl bg-surface-container-low hover:bg-surface-container shadow-md transition-colors group cursor-pointer" href="#contacto">
+<div class="w-14 h-14 rounded-2xl bg-secondary/20 text-secondary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]">local_shipping</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mb-1">PASO 03</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">3. Recibe o recoge</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Te confirmamos al instante, preparamos calientito y te llega a domicilio en Guasave o pasa por él al local.
+          </p>
+</a>
+</div>
+</section>
+<!-- 8. SECCIÓN CONTACTO DIRECTO & UBICACIÓN -->
+<section class="mt-14 sm:mt-20 w-full mb-8 scroll-mt-24" id="contacto">
+<div class="rounded-3xl bg-surface-container-low p-6 sm:p-10 shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 flex flex-col gap-5">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Atención Inmediata</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pide directo a cocina en Guasave</h2>
+</div>
+<!-- Guarantee Callout -->
+<div class="p-4 rounded-2xl bg-surface-container-high flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Garantía de sabor Sinaloa</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Ingredientes frescos del día, porciones generosas y salsa preparada con la receta secreta Yoi Express.
+                </p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="bg-surface-container p-4 rounded-2xl flex flex-col gap-2">
+<div class="flex items-center gap-2 text-[#25D366]">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="font-label-md text-label-md">WhatsApp para pedidos:</span>
+</div>
+<p class="font-headline-md text-headline-md text-on-surface font-extrabold tracking-wide">687 121 1658</p>
+<a class="mt-2 inline-flex items-center justify-center gap-2 py-2 px-4 rounded-xl bg-[#25D366] text-surface-container-lowest font-label-md text-label-md hover:opacity-90 transition-opacity" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Tengo%20una%20duda%20con%20mi%20pedido" rel="noopener noreferrer" target="_blank">
+<span>Escribir por WhatsApp</span>
+</a>
+</div>
+<div class="bg-surface-container p-4 rounded-2xl flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span class="font-label-md text-label-md">Teléfono para llamadas:</span>
+</div>
+<p class="font-headline-md text-headline-md text-on-surface font-extrabold tracking-wide">687 162 0540</p>
+<a class="mt-2 inline-flex items-center justify-center gap-2 py-2 px-4 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-colors" href="tel:+526871620540">
+<span>Llamar al restaurante</span>
+</a>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-4 bg-surface-container p-6 rounded-2xl">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">location_on</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ubicación</span>
+<p class="font-label-lg text-label-lg text-on-surface">Guasave, Sinaloa, México</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Servicio a domicilio y pick-up</p>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">alarm</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Horario de servicio</span>
+<p class="font-label-lg text-label-lg text-on-surface">Lunes a Domingo</p>
+<p class="font-body-sm text-body-sm text-secondary">1:00 PM a 11:00 PM sin descanso</p>
+</div>
+</div>
+<a class="mt-2 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary-container px-4 py-3 font-label-md text-label-md text-on-primary-container transition-opacity hover:opacity-90" href="https://www.google.com/maps/search/?api=1&amp;query=Yoi+Express+Guasave+Sinaloa" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span>Ver ubicación en Google Maps</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></main><footer class="w-full bg-surface-container-low mt-margin-lg"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary">YOI EXPRESS</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Sabor y tradición culinaria culichi y sinaloense en cada rollo gratinado, empanizado y horneado al momento en Guasave.</p></div><div class="flex flex-col gap-space-sm"><span class="font-title-sm text-title-sm text-on-surface">Ubicación &amp; Horarios</span><p class="font-body-sm text-body-sm text-on-surface-variant">Guasave, Sinaloa, México</p><p class="font-body-sm text-body-sm text-on-surface-variant">Lunes a Domingo<br/>1:00 PM - 11:00 PM</p></div><div class="flex flex-col gap-space-sm"><span class="font-title-sm text-title-sm text-on-surface">Pedidos &amp; Atención</span><a class="font-body-sm text-body-sm text-primary hover:text-primary-fixed transition-colors flex items-center gap-space-xs" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Quiero%20hacer%20un%20pedido%20por%20favor" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">chat</span>WhatsApp: (687) 121 1658</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" href="tel:+526871620540"><span class="material-symbols-outlined text-[16px]">call</span>Llamadas: (687) 162 0540</a></div><div class="flex flex-col gap-space-sm"><span class="font-title-sm text-title-sm text-on-surface">Síguenos</span><div class="flex items-center gap-space-sm text-on-surface-variant"><a aria-label="WhatsApp" class="p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors" href="https://wa.me/526871211658" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">public</span></a><a aria-label="Fotos" class="p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors" href="https://wa.me/526871211658" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Compartir" class="p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors" href="https://wa.me/526871211658" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">share</span></a></div><p class="font-body-sm text-body-sm text-on-surface-variant">Ordena fresco, rápido y directo a domicilio.</p></div></div><div class="mt-space-xl pt-space-lg text-center font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 Yoi Express Sushi Roll Guasave. Todos los derechos reservados.</p></div></div></footer><aside class="fixed bottom-6 right-6 z-50"><a class="flex items-center gap-space-xs px-space-md py-space-sm rounded-full bg-[#25D366] text-surface-container-lowest font-label-lg text-label-lg shadow-[0_8px_24px_-2px_rgba(37,211,102,0.4)] hover:scale-105 transition-all" href="https://wa.me/526871211658?text=Hola%20Yoi%20Express!%20Quiero%20pedir%20sushi" rel="noopener noreferrer" target="_blank"><span>Pedir por WhatsApp</span></a></aside>
+<script>
+  // Interactive active state toggle for food category chips and filtering logic
+  document.querySelectorAll('.category-chip').forEach(button => {
+    button.addEventListener('click', function() {
+      // Toggle styles
+      document.querySelectorAll('.category-chip').forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-on-primary-container', 'border-primary-container', 'shadow-md');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface', 'border-transparent');
+      });
+      this.classList.remove('bg-surface-container-high', 'text-on-surface', 'border-transparent');
+      this.classList.add('bg-primary-container', 'text-on-primary-container', 'border-primary-container', 'shadow-md');
+
+      const filter = this.getAttribute('data-filter');
+      
+      // If user clicks on 'charolas', 'pasteles', or 'ofertas', scroll smoothly to that dedicated section
+      if (filter === 'charolas' || filter === 'pasteles') {
+        const charolasSection = document.getElementById('charolas');
+        if (charolasSection) charolasSection.scrollIntoView({ behavior: 'smooth' });
+        return;
+      }
+      if (filter === 'ofertas') {
+        const ofertasSection = document.getElementById('ofertas');
+        if (ofertasSection) ofertasSection.scrollIntoView({ behavior: 'smooth' });
+        return;
+      }
+
+      // Filter dishes in the grid
+      const dishCards = document.querySelectorAll('.dish-card');
+      dishCards.forEach(card => {
+        const categories = (card.getAttribute('data-category') || '').split(',');
+        if (filter === 'all' || categories.includes(filter)) {
+          card.style.display = 'flex';
+          card.classList.add('animate-fadeIn');
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Active header link indicator on click
+  document.querySelectorAll('header nav a').forEach(link => {
+    link.addEventListener('click', function() {
+      document.querySelectorAll('header nav a').forEach(l => {
+        l.classList.remove('text-primary');
+        l.classList.add('text-on-surface-variant');
+      });
+      this.classList.remove('text-on-surface-variant');
+      this.classList.add('text-primary');
+    });
+  });
+</script>
+</body></html>
